@@ -145,7 +145,7 @@ void DrawXO()
 			else if(board[i][j]==2)
 			{
 
-				DrawCircle(50 + j*100 , 100 + i*100 , 25 , 15);
+				DrawCircle(50 + j*100 , 100 + i*100 , 25 , 360);
 			}
 		}
 	}
