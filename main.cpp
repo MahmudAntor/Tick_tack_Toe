@@ -219,11 +219,11 @@ void Display()
 {
 	glClear(GL_COLOR_BUFFER_BIT);
 	glClearColor(0, 0, 0, 0);
-	glColor3f(1.0, 1.0, 1.0);
+	glColor3f(.47,.79,.79);
 	if(turn == 1)
-		DrawString(GLUT_BITMAP_HELVETICA_18, "Player1's turn", 100, 30);
+		DrawString(GLUT_BITMAP_TIMES_ROMAN_24, "Player 1 (X)", 100, 30);
 	else
-		DrawString(GLUT_BITMAP_HELVETICA_18, "Player2's turn", 100, 30);
+		DrawString(GLUT_BITMAP_TIMES_ROMAN_24, "Player 2 (O)", 100, 30);
 
 	DrawLines();
 	DrawXO();
