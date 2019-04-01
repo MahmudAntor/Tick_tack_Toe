@@ -219,7 +219,7 @@ void Display()
 {
 	glClear(GL_COLOR_BUFFER_BIT);
 	glClearColor(0, 0, 0, 0);
-	glColor3f(1.0, 1.0, 1.0);
+	glColor3f(.47,.79,.79);
 	if(turn == 1)
 		DrawString(GLUT_BITMAP_TIMES_ROMAN_24, "Player 1 (X)", 100, 30);
 	else
